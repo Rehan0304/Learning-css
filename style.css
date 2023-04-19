@@ -1,5 +1,5 @@
-*{
-    /* background-color: antiquewhite; */
+ /* *{
+     background-color: antiquewhite; 
    box-sizing: border-box;
 }
 .container{
@@ -13,7 +13,7 @@
 .main{
     border: 2px solid rgb(238, 132, 241);
     width: 900px;
-    /* height: px; */
+    height: px;
     margin: auto;
     background-color: aliceblue;
 }
@@ -26,12 +26,42 @@
     width: 45%;  
 }
 .heading3{
-    /* float: left; */
-
+    float: left;
     width: 95%;
     clear: left;
 }
 h1{
     margin: auto;
     width: 455px;
+}  
+  */
+ /* 17/4/23  monday   */
+
+ .navbar{ 
+    background-color: aqua;
+     /* padding: 20px 30px;  */
+      box-sizing: border-box;
+      border-radius: 30px;
+}
+.navbar ul{
+    list-style: none;
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    padding: 12px 40px; 
+}
+.navbar li a{
+    text-decoration: none;
+     /* padding: 0px 50px;  */
+}
+.searchbar{
+    float: right;
+}
+.searchbar input{
+    border-radius: 15px;
+}
+.navbar li a:hover{
+    color: antiquewhite;
 }
